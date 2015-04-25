@@ -1,0 +1,139 @@
+body
+{
+	background-color:#310000;
+	
+}
+
+header
+{	
+	
+	background-color:#FF9300;
+}
+footer
+{
+	margin-top:60px;
+	background-color:#FF9300;
+	
+}
+
+#image1,#image2,#image3,#imageSem1,#imageSem2
+{
+	width:200px;
+	height:150px;
+	margin-top:5em;
+	opacity:0.5;
+	
+	
+}
+
+#image4,#image5,#image6,#imageSem3,#imageSem4
+{
+	width:200px;
+	height:150px;
+	margin-top:5em;
+	opacity:0.5;
+}
+
+h1,h4
+{
+	text-align:center;
+	font-family:"comic sans ms";
+	color:#310000;
+}
+
+nav li
+{
+	list-style-type:none;
+	display:inline;
+	margin-right:5em;
+	margin-top:5em;
+}
+
+nav
+{
+	text-align:center;
+}
+
+#image1:hover,#image2:hover,#image3:hover,#image4:hover,#image5:hover,#image6:hover,#imageSem1:hover,#imageSem2:hover,#imageSem3:hover,#imageSem4:hover
+{
+	opacity:1;
+}
+
+#image1,#image2,#image3,#image4,#image5,#image6,#imageSem1,#imageSem2,#imageSem3,#imageSem4
+{
+	border-top: 0.3em solid #FF9300;
+	border-left: 0.3em solid #FF9300;
+	border-right: 0.3em solid #FF9300;
+	border-bottom:0.3em solid #FF9300;
+}
+
+h2
+{
+	color:#FF9300 ;
+}
+
+p 
+{
+	color:#FF0000;
+}
+
+#secp1
+{
+	margin-left:25px;
+	margin-right:50%;
+	margin-top:25px;
+	border-top: 0.3em solid #FF9300;
+	border-left: 0.3em solid #FF9300;
+	border-right: 0.3em solid #FF9300;
+	border-bottom: 0.3em solid #FF9300;
+	border-radius: 20px 20px 20px 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	float:left;
+	width:40%;
+	
+	
+}
+
+#inscription
+{
+	margin-top:20px;
+	margin-left:225px;
+	width:150px;
+	height:40px;
+	border-radius:20px 20px 20px 20px;
+	border-top: 0.2em solid grey;
+	border-left: 0.2em solid grey;
+	border-right: 0.2em solid black;
+	border-bottom: 0.2em solid black;
+	font-size:20px;
+	
+	
+}
+
+#inscription:hover
+{
+	border-color:orange;
+}
+
+#connexion
+{
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	width:25%;
+	border-top: 0.3em solid #FF9300;
+	border-left: 0.3em solid #FF9300;
+	border-right: 0.3em solid #FF9300;
+	border-bottom: 0.3em solid #FF9300;
+}
+
+#pass,#identifiant
+{
+	margin-left:25%;
+	margin-right:25%;
+	width:50%;
+	
+}
