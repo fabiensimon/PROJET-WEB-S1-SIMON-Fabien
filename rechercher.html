@@ -25,24 +25,33 @@
 			<h1>RECHERCHER</h1>
 		</header>
 		
+		<img src="Lyon1.jpg" id="LOGOIUT" /> 
+		
 		<div id="recherche">
 		
-			<input type="text" name="nom" id="form" placeholder="Nom" /></br>
+			<label id="labelfiltre">Nom: </label>
+			<input type="text" name="nom" id="filtre" placeholder="Nom" />
 			
-			<input type="text" name="prenom" id="form" placeholder="Prenom" /></br>
+			<label id="labelfiltre">Mots clés: </label>
+			<input type="text" name="mclés" id="filtre" placeholder="Mots clés" />
 			
-			<input type="text" name="groupe" id="form" placeholder="Groupe" /></br>
+			<label id="labelfiltre">Année: </label>
+			<input type="number" name="annee" id="filtre" placeholder="Année"  min="1950" max="2015" />
 			
-			<input type="text" name="nbpers" id="form" placeholder="Nombres d'élèves du groupe" /></br>
+			<label for="type" id="labelfiltre">Type de support</label><br />
+			<select name="type" id="filtre">
+				<option value="Défaut">Défaut</option>
+				<option value="Site web">Site web</option>
+				<option value="Poster">Poster</option>
+			    
+			</select>
 			
-			<input type="textarea" name="nommembres" id="form" placeholder="Nom et prenom des membres"  />
-			
-			<input type="submit" value="Envoyer" id="valideform" />
+			<input type="submit" value="Filtrer" id="validefiltre" />
 		
 		</div>
 		
 	
-
+		
 
 	
 		
