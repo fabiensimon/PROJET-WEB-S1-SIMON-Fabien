@@ -1,3 +1,11 @@
+﻿
+body,html
+{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
 body
 {
 	background-color:#310000;
@@ -8,19 +16,17 @@ header
 {	
 	
 	background-color:#FF9300;
-}
-footer
-{
-	margin-top:60px;
-	background-color:#FF9300;
 	
 }
+
+
+
 
 #image1,#image2,#image3,#imageSem1,#imageSem2
 {
 	width:200px;
 	height:150px;
-	margin-top:5em;
+	margin-top:2.5em;
 	opacity:0.5;
 	
 	
@@ -80,7 +86,7 @@ p
 #secp1
 {
 	margin-left:25px;
-	margin-right:50%;
+	margin-right:0;
 	margin-top:25px;
 	border-top: 0.3em solid #FF9300;
 	border-left: 0.3em solid #FF9300;
@@ -99,9 +105,10 @@ p
 
 #inscription
 {
-	margin-top:50px;
+	margin-top:20px;
 	margin-left:45%;
-	margin-right:45%;	
+	margin-right:45%;
+	margin-bottom:20px;
 	width:10%;
 	height:40px;
 	border-radius:20px 20px 20px 20px;
@@ -119,11 +126,12 @@ p
 	border-color:orange;
 }
 
-#connexion
+#connexion,#formulaire
 {
 	margin-top:25px;
 	margin-left:auto;
 	margin-right:auto;
+	border-radius:10px 10px 10px 10px;
 	width:25%;
 	border-top: 0.3em solid #FF9300;
 	border-left: 0.3em solid #FF9300;
@@ -159,7 +167,7 @@ p
 	
 }
 
-#valideconnexion:hover
+#valideconnexion:hover,#valideform:hover
 {
 	border-color:orange;
 }
@@ -168,3 +176,90 @@ p
 ::-moz-placeholder { text-align:center; }
 :-ms-input-placeholder { text-align:center; } 
 input:-moz-placeholder { text-align:center; }
+
+
+#form
+{
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:70%;
+	border-radius:10px 10px 10px 10px;
+	height:35px;
+}
+
+#valideform
+{
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:40%;
+	border-radius:10px 10px 10px 10px;
+	height:25px;
+	border-top: 0.2em solid grey;
+	border-left: 0.2em solid grey;
+	border-right: 0.2em solid black;
+	border-bottom: 0.2em solid black;
+		
+}
+
+#imageP1S1
+{
+	display:inline;
+	float:right;
+	margin-right:75px;
+	
+	margin-top:70px;
+	
+	
+	
+	
+}
+
+#imP1S1
+{
+	width:500px;
+	height:300px;
+	border-top: 0.3em solid #FF9300;
+	border-left: 0.3em solid #FF9300;
+	border-right: 0.3em solid #FF9300;
+	border-bottom: 0.3em solid #FF9300;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#navigation a 
+{
+	text-decoration:none;
+	color:#310000;
+	font-size:20px;
+	font-family:"comic sans ms";
+	
+}	
+
+#navigation ul 
+{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+
+
+#navigation
+{
+	width:100%;
+	background-color:#FF9300;
+	height:30px;
+	
+	
+	
+}
+
+#navigation a:hover 
+{
+	background-color:#FF0000;
+	transition-duration:0.5s;
+	padding:0.3em;
+}
