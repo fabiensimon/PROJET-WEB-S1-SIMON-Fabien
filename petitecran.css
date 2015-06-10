@@ -1,0 +1,68 @@
+﻿h1
+{
+	font-size:20px;
+}
+
+#navigation
+{
+	margin-bottom:50px;
+}
+
+#navigation a 
+{
+	font-size:15px;
+	
+}
+
+
+#navigation ul 
+{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+
+#bandeau
+{
+	display:none;
+}
+
+#secp1,#imageP1S1
+{
+	
+	width:80%;
+}
+
+#LOGOIUT
+{
+	display:none;
+}
+
+#connexion,#formulaire,#recherche
+{
+	
+	margin-left:15%;
+	margin-right:15%;
+	
+	width:70%;
+	
+	
+	
+	box-shadow: 10px 10px 5px #aaa; 
+}
+
+#image4,#image5,#image6,#imageSem3,#imageSem4
+{
+	margin-top:10px;
+}
+
+
+#image1,#image2,#image3,#image4,#image5,#image6,#imageSem1,#imageSem2,#imageSem3,#imageSem4
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+<!--valider-->

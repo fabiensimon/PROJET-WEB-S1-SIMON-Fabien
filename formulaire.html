@@ -1,9 +1,10 @@
-<!Doctype html>
+﻿<!Doctype html>
 <html>
 	
 	<head> 
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" media="only screen and (max-device-width: 1100px)" href="petitecran.css" type="text/css"/>
 		<title>FORMULAIRE</title>
 	</head>
 	
@@ -18,7 +19,7 @@
 		<ul>
 					
 			<li><a href="index.html">ACCUEIL</a></li>
-			<li><a href="privee.html">LOGIN</a></li>
+			<li><a href="privee.html">ZONE PRIVEE</a></li>
 			<li><a href="rechercher.html">RECHERCHER</a></li>
 					
 		</ul>
@@ -27,22 +28,24 @@
 	
 		
 		
-		<img src="Lyon1.jpg" id="LOGOIUT" /> 
+		<img src="images/Lyon1.jpg" id="LOGOIUT" alt="LOGOIUT" /> 
 		
 		<div id="formulaire">
 		
-			<input type="text" name="nom" id="form" placeholder="Nom" /></br>
+		<form method="post" action="traitement.php">
+		
+			<input type="text" name="nom" class="form" placeholder="Nom" />
 			
-			<input type="text" name="prenom" id="form" placeholder="Prenom" /></br>
+			<input type="text" name="prenom" class="form" placeholder="Prenom" />
 			
-			<input type="text" name="groupe" id="form" placeholder="Groupe" /></br>
+			<input type="text" name="groupe" class="form" placeholder="Groupe" />
 			
-			<input type="text" name="nbpers" id="form" placeholder="Nombres d'élèves du groupe" /></br>
+			<input type="text" name="nbpers" class="form" placeholder="Nombres d'élèves" />
 			
-			<input type="textarea" name="nommembres" id="form" placeholder="Nom et prenom des membres"  />
+			<input type="text" name="nommembres" class="form" placeholder="Nom des membres"  />
 			
 			<input type="submit" value="Envoyer" id="valideform" />
-		
+		</form>
 		</div>
 		
 		
@@ -50,3 +53,5 @@
 	
 	</body>
 </html>
+
+<!--valider-->

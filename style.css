@@ -1,9 +1,7 @@
 ﻿
 body,html
 {
-	margin:0;
-	padding:0;
-	height:100%;
+	margin:0;	
 }
 
 body
@@ -35,7 +33,6 @@ header
 {
 	width:200px;
 	height:150px;
-	margin-top:2.5em;
 	opacity:0.7;
 	border-radius:10px 10px 10px 10px;
 	
@@ -84,16 +81,19 @@ nav
 	border-left: 0.3em solid #FF9300;
 	border-right: 0.3em solid #FF9300;
 	border-bottom:0.3em solid #FF9300;
+	box-shadow: 10px 10px 5px #aaa; 
 }
 
 h2
 {
 	color:orange;
+	font-family:"comic sans ms";
 }
 
 p 
 {
 	color:rgb(88,88,90);
+	font-family:"comic sans ms";
 }
 
 #secp1
@@ -112,9 +112,12 @@ p
 	padding-bottom: 25px;
 	float:left;
 	width:40%;
+	box-shadow: 10px 10px 5px #aaa; 
 	
 }
 
+
+ 
 
 
 
@@ -132,28 +135,48 @@ p
 	border-bottom: 0.3em solid #FF9300;
 	padding-top:20px;
 	margin-bottom:25px;
+	box-shadow: 10px 10px 5px #aaa; 
 }
 
 #identifiant
 {
-	background: url(iconid.png) no-repeat scroll 7px 7px;
+	background: url(images/iconid.png) no-repeat scroll 7px 7px;
 }
 
 #pass
 {
-	background: url(iconsec.png) no-repeat scroll 7px 7px;
+	background: url(images/iconsec.png) no-repeat scroll 7px 7px;
 }
 
-#form
+.form
 {
-	background: url(iconform.png) no-repeat scroll 7px 7px;
+	background: url(images/iconform.png) no-repeat scroll 7px 7px;
 }
 
-#filtre
+.filtre
 {
-	background: url(iconidea.png) no-repeat scroll 7px 7px;
+	background: url(images/iconidea.png) no-repeat scroll 7px 7px;
 }
-#pass,#identifiant,#filtre
+
+#validefiltre
+{
+	background: url(images/iconrech.png) no-repeat scroll 7px 7px;
+	background-position:center;
+	height:40px;
+	margin-left:40%;
+	margin-right:40%;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:20%;
+	border-radius:5px 5px 5px 5px;
+	border-top: 0.2em solid grey;
+	border-left: 0.2em solid grey;
+	border-right: 0.2em solid black;
+	border-bottom: 0.2em solid black;
+	background-color:orange;
+	color:black;
+}
+#pass,#identifiant, .filtre, .form
 {
 	margin-left:20%;
 	margin-right:20%;
@@ -182,7 +205,7 @@ p
 }
 
 
-#valideconnexion,#valideform,#validefiltre
+#valideconnexion,#valideform
 {
 	margin-left:30%;
 	margin-right:30%;
@@ -210,20 +233,6 @@ p
 input:-moz-placeholder { text-align:center; }
 
 
-#form
-{
-	margin-left:15%;
-	margin-right:15%;
-	margin-top:10px;
-	margin-bottom:10px;
-	width:70%;
-	border-radius:10px 10px 10px 10px;
-	height:35px;
-	text-align:center;
-	background-color:#FFCDA0;
-}
-
-
 
 #imageP1S1
 {
@@ -231,6 +240,7 @@ input:-moz-placeholder { text-align:center; }
 	float:right;
 	margin-right:75px;	
 	margin-top:70px;
+	
 }
 
 #imP1S1
@@ -250,8 +260,8 @@ input:-moz-placeholder { text-align:center; }
 	color:orange;
 	font-size:20px;
 	font-family:"comic sans ms";
-	padding-left:0.2em;
-	padding-right:0.2em;
+	padding-left:0.4em;
+	padding-right:0.4em;
 	
 }	
 
@@ -269,9 +279,6 @@ input:-moz-placeholder { text-align:center; }
 	width:100%;
 	background-color:rgb(88,88,90);
 	height:30px;
-	
-	
-	
 }
 
 
@@ -279,22 +286,14 @@ input:-moz-placeholder { text-align:center; }
 #navigation a:hover 
 {
 	
-	background-color:#FF7400;
+	background-color:orange;
 	transition-duration:0.5s;
 	padding-bottom:0.5em;
 	color: black;
+	border-radius:0 0 10px 10px;
+	
+	
 }
-
-
-
-
-#labelfiltre
-{
-	margin-left:32%;
-	color:#FF9300;
-}
-
-
 
 #LOGOIUT
 {
@@ -307,3 +306,5 @@ input:-moz-placeholder { text-align:center; }
 	border-radius:20px 20px 20px 20px;
 	
 }
+
+<!--valider-->

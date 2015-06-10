@@ -1,9 +1,10 @@
-<!Doctype html>
+﻿<!Doctype html>
 <html>
 	
 	<head> 
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" media="only screen and (max-device-width: 1100px)" href="petitecran.css" type="text/css"/>
 		<title> Connexion </title>
 	</head>
 	
@@ -20,18 +21,18 @@
 		<ul>
 					
 			<li><a href="index.html">ACCUEIL</a></li>
-			<li><a href="privee.html">LOGIN</a></li>
+			<li><a href="privee.html">ZONE PRIVEE</a></li>
 			<li><a href="rechercher.html">RECHERCHER</a></li>
 					
 		</ul>
 	
 	</nav>
 		
-		<img src="Lyon1.jpg" id="LOGOIUT" alt="Lyon1"/> 
+		<img src="images/Lyon1.jpg" id="LOGOIUT" alt="Lyon1"/> 
 		
 		<div id="connexion">
 			
-			<p>
+			
 				
 				<input type="text" name="identifiant" id="identifiant" placeholder="Identifiant" />
        
@@ -41,10 +42,13 @@
 				<input type="password" name="pass" id="pass" placeholder="Mot de passe"/>
 				
 			
-
-				<a href="formulaire.html"><button id="valideconnexion" >Se connecter</button></a>
+				<form method="get" action="formulaire.html">
+					<button id="valideconnexion" type="submit">Se connecter</button>
+				</form>
+					
+				 
 				
-			</p>
+			
 		
 		</div>
 
@@ -54,3 +58,5 @@
 	
 	</body>
 </html>
+
+<!--valider-->
